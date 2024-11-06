@@ -56,7 +56,7 @@ android:summary="@string/basic_battery_saver_summary"/>
         settings:keywords="@string/keywords_battery_saver_sticky"
         settings:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverStickyPreferenceController"/>
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:order="90"
         android:key="battery_saver_rr_switch"
         android:title="@string/battery_saver_refresh_rate_title"
