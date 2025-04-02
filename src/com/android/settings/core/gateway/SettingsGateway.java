@@ -215,7 +215,6 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.crdroid.settings.crDroidSettingsLayout;
-import com.crdroid.settings.fragments.ui.SmartPixels;
 
 public class SettingsGateway {
 
@@ -419,7 +418,6 @@ public class SettingsGateway {
             ContactsStorageSettings.class.getName(),
             crDroidSettingsLayout.class.getName(),
             RunningServices.class.getName(),
-            SmartPixels.class.getName(),
             PrivateDnsSettings.class.getName(),
     };
 
@@ -469,7 +467,6 @@ public class SettingsGateway {
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.crDroidSettingsLayoutActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
-            Settings.SmartPixelsActivity.class.getName(),
             Settings.PrivateDnsSettingsActivity.class.getName(),
     };
 }
